@@ -1,8 +1,6 @@
 import requests
 import pandas as pd
 
-TMDB_BEARER_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0N2ZiNDlhMTk4MmViZDA4ZDc2OTc4Mjc1Y2NiYzk3NiIsIm5iZiI6MTcxNjIyMTk4Ny4wNjksInN1YiI6IjY2NGI3ODIzNmY0MGMzOTVmNDkzM2FhMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rZXU05L8soDJ2_ON9BHKD_gaPH-9fSdy0W-XMeXo2Ec"
-
 def get_movie_info(movie_title, links_df, movies_path="ml-20m/movies.csv"):
     """
     Query TMDb for detailed movie info using TMDb Bearer Token auth.
