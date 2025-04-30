@@ -19,7 +19,7 @@ This project analyzes and explores the MovieLens dataset using a bipartite graph
 - query_tools.py — graph query functions (recommendation, path, centrality)
 - tmdb_api.py — TMDb movie info retrieval via Bearer token
 - graph_cache.py — optional graph caching utility
-- ml-20m/ — directory containing the MovieLens dataset files
+- ml-20m/ — Please download the MovieLens 20M dataset separately from [https://grouplens.org/datasets/movielens/20m/] and place it in a folder named ml-20m.”
 
 ## Requirements
 
